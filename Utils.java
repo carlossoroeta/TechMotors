@@ -5,7 +5,7 @@ public class Utils {
         str.append("<html>");
         str.append("<head><link rel='stylesheet' href='w3.css'></head>");
         str.append("<body>");
-        str.append("<div class='w3-bar w3-grey w3-padding w3-card' style='letter-spacing:4px;'><IMG SRC='LOGOE3E3E3.jpeg' class='w3-bar-item'><P></P><IMG SRC='atrasbien_opt.png' class='w3-bar-item' style='margin-top:40px'><div class='w3-right w3-hide-small' style='font-size:1.6em'><a href='' class='w3-bar-item' style='margin-top:50px'>" + username + "</a><IMG SRC='logout.png' class='w3-bar-item' style='margin-top:50px'></div></div>");
+        str.append("<div class='w3-bar w3-grey w3-padding w3-card' style='letter-spacing:4px;'><A HREF=''><IMG SRC='LOGOE3E3E3.jpeg' class='w3-bar-item'></A><P></P><IMG SRC='atrasbien_opt.png' class='w3-bar-item' style='margin-top:40px'><div class='w3-right w3-hide-small' style='font-size:1.6em'><a href='' class='w3-bar-item' style='margin-top:50px'>" + username + "</a><A HREF=''><IMG SRC='logout.png' class='w3-bar-item' style='margin-top:50px'></A></div></div>");
         str.append("<div class='w3-bar w3-white w3-padding w3-card' style='letter-spacing:4px;'>");
         str.append("<div class='w3-right w3-hide-small'><a href='' class='w3-bar-item w3-button'>Services</a><a href='' class='w3-bar-item w3-button'>Garages</a><a href='' class='w3-bar-item w3-button'>INFO</a><a href='' class='w3-bar-item w3-button'>Contact</a></div>");
         str.append("</div>");

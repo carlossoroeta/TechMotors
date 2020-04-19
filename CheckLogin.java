@@ -23,15 +23,15 @@ public class CheckLogin extends HttpServlet {
         String password = req.getParameter("Password");
 		String type = req.getParameter("type");
         
-		String logged = check(connection, user, password, type);
-        
-		System.out.println("check Login ID: " + logged);
+		String logged = check(connection,user,password,type);
+     
+		System.out.println("check Login username: " + logged);
 		System.out.println("As " + type);
         System.out.println("check Login login, password: " + user + " " + password);
         if (logged != null) {
             HttpSession session = req.getSession(true);
             session.setAttribute("login", logged);
-			if (type=="Customers") {
+			if (type.equals("Customers")) {
 				res.sendRedirect("CustomerMenu");
 			} else {
 				res.sendRedirect("ManagerMenu");
@@ -50,9 +50,10 @@ public class CheckLogin extends HttpServlet {
     
     String check(Connection connection, String user, String password, String type) {
         String sql="";
-		if (type=="Customers") {
-			sql = "Select Username FROM Customers";
-			sql += " WHERE Username=? and Password=?";
+		System.out.println("check type: " + type);
+		if (type.equals("Customers")) {
+		    sql = "Select Username FROM Customers";
+		    sql += " WHERE Username=? and Password=?";
 		} else {
 			sql = "Select Username FROM Managers";
 			sql += " WHERE Username=? and Password=?";
