@@ -12,10 +12,9 @@ public class ConnectionUtils {
         Connection connection = null;;
         try {
             Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-            //String url="jdbc:odbc:TechMotorsDEF";
 			ServletContext context = config.getServletContext();
-			System.out.println("realPath: " + context.getRealPath("TechMotorsDEF.mdb"));
-			String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + context.getRealPath("TechMotorsDEF.mdb"));
+			System.out.println("realPath: " + context.getRealPath("TechMotorsDEFVersion1.mdb"));
+			String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};DBQ=" + context.getRealPath("TechMotorsDEFVersion1.mdb"));
             connection=DriverManager.getConnection(url); 
         } catch(Exception e) {
             e.printStackTrace();
@@ -26,7 +25,7 @@ public class ConnectionUtils {
         Connection connection = null;;
         try {
             Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-            String url="jdbc:odbc:TechMotorsDEF";
+            String url="jdbc:odbc:TechMotorsDEFVersion1";
             connection=DriverManager.getConnection(url); 
         } catch(Exception e) {
             e.printStackTrace();
@@ -41,5 +40,6 @@ public class ConnectionUtils {
         }
         return connection;
     }
+	
 
 }
