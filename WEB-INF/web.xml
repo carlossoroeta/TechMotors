@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+    <servlet>
+        <servlet-name>elegirCita</servlet-name>
+        <servlet-class>elegirCita</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>CheckLogin</servlet-name>
+        <servlet-class>CheckLogin</servlet-class>
+    </servlet>
+		<servlet>
+        <servlet-name>MyVehicles</servlet-name>
+        <servlet-class>MyVehicles</servlet-class>
+    </servlet>
+			<servlet>
+        <servlet-name>MyVehiclesData</servlet-name>
+        <servlet-class>MyVehiclesData</servlet-class>
+    </servlet>
+	    
+			<servlet>
+        <servlet-name>MyVehiclesEdit</servlet-name>
+        <servlet-class>MyVehiclesEdit</servlet-class>
+    </servlet>
+				<servlet>
+        <servlet-name>MyVehiclesUpdate</servlet-name>
+        <servlet-class>MyVehiclesUpdate</servlet-class>
+    </servlet>
+		<servlet>
+        <servlet-name>MyVehiclesDelete</servlet-name>
+        <servlet-class>MyVehiclesDelete</servlet-class>
+    </servlet>
+
+		<servlet>
+        <servlet-name>insertMyVehicle</servlet-name>
+        <servlet-class>insertMyVehicle</servlet-class>
+    </servlet>
+		<servlet>
+        <servlet-name>chat</servlet-name>
+        <servlet-class>chat</servlet-class>
+    </servlet>
+	    
+		<servlet>
+        <servlet-name>messageInsert</servlet-name>
+        <servlet-class>messageInsert</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>LicensePlateJSON</servlet-name>
+        <servlet-class>LicensePlateJSON</servlet-class>
+    </servlet>
+	
+    
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>CheckLogin</servlet-name>
+        <url-pattern>/CheckLogin</url-pattern>
+    </servlet-mapping>
+	
+    <servlet-mapping>
+        <servlet-name>elegirCita</servlet-name>
+        <url-pattern>/elegirCita</url-pattern>
+    </servlet-mapping>
+	    <servlet-mapping>
+        <servlet-name>MyVehicles</servlet-name>
+        <url-pattern>/MyVehicles</url-pattern>
+    </servlet-mapping>
+	    <servlet-mapping>
+        <servlet-name>MyVehiclesData</servlet-name>
+        <url-pattern>/MyVehiclesData</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>MyVehiclesEdit</servlet-name>
+        <url-pattern>/MyVehiclesEdit</url-pattern>
+    </servlet-mapping> 
+	   	<servlet-mapping>
+        <servlet-name>MyVehiclesUpdate</servlet-name>
+        <url-pattern>/MyVehiclesUpdate</url-pattern>
+    </servlet-mapping> 
+	 	<servlet-mapping>
+        <servlet-name>MyVehiclesDelete</servlet-name>
+        <url-pattern>/MyVehiclesDelete</url-pattern>
+    </servlet-mapping> 
+
+	 	<servlet-mapping>
+        <servlet-name>insertMyVehicle</servlet-name>
+        <url-pattern>/insertMyVehicle</url-pattern>
+    </servlet-mapping> 
+		 	<servlet-mapping>
+        <servlet-name>chat</servlet-name>
+        <url-pattern>/chat</url-pattern>
+    </servlet-mapping> 
+		 	<servlet-mapping>
+        <servlet-name>messageInsert</servlet-name>
+        <url-pattern>/messageInsert</url-pattern>
+    </servlet-mapping> 
+		<servlet-mapping>
+        <servlet-name>LicensePlateJSON</servlet-name>
+        <url-pattern>/LicensePlateJSON</url-pattern>
+    </servlet-mapping> 
+	
+</web-app>
