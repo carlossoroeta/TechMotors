@@ -1,0 +1,60 @@
+//CSS
+*{
+	padding:0;
+	margin: 0;
+	border: 0;
+	
+}
+
+body{
+	background: grey;
+}
+
+#contenedor{
+	width: 50%;
+	background: #fff;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 12px;
+	 
+
+}
+
+#cajachat{
+	width: 90%;
+	height: 400px;
+	bottom: 3px; 
+}
+
+#mensajes{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid silver;
+	font-weight: bold;
+	font-family: 'Mukta Vaani', sans-serif;
+}
+
+
+
+button{
+	width: 100%;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	cursor: pointer;
+	background: #262E2B
+	
+}
+
+textarea{
+	width: 100%;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	
+}
+
+input, textarea{
+	margin-bottom: 5px;
+}
