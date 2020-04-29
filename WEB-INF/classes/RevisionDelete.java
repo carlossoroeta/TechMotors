@@ -46,7 +46,7 @@ public class RevisionDelete extends HttpServlet {
 					toClient.println("<TD>" + citaPendiente.Hour + "</TD>");
 					toClient.println("<TD>" + citaPendiente.Type + "</TD>");
 					toClient.println("<TD>" + citaPendiente.Vehicle + "</TD>");
-					toClient.println("<TD><A HREF=AllappointmentsDelete?id=" + citaPendiente.IDAppointment + "&Query=" + userType + ">Delete</A></TD>");
+					toClient.println("<TD><A HREF=RevisionDelete?id=" + citaPendiente.IDAppointment + "&Query=" + userType + ">Delete</A></TD>");
 					toClient.println("</TR>");
 				}
 			}
@@ -60,7 +60,7 @@ public class RevisionDelete extends HttpServlet {
 			toClient.println("<TR class='w3-grey'><TD>ID</TD><TD>Garage</TD><TD>Date</TD><TD>Hour</TD><TD>Type</TD><TD>Vehicle</TD></TR>");
 			int nPasadas=citasPasadas.size();
 			if (nPasadas==0) {
-				toClient.println("<TR><TD>You dont have any past appointments</TD></TR>");
+				toClient.println("<CENTER><font size='7' style='color:#e3e3e3' >EMPTY</font></CENTER>");
 			}
 			else {
 				
