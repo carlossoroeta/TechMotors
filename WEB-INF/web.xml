@@ -52,6 +52,59 @@
         <servlet-class>LicensePlateJSON</servlet-class>
     </servlet>
 	
+	<servlet>
+        <servlet-name>filtroAppointment</servlet-name>
+        <servlet-class>filtroAppointment</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>AllappointmentsData</servlet-name>
+        <servlet-class>AllappointmentsData</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>AllAppoinmentsList</servlet-name>
+        <servlet-class>AllAppoinmentsList</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>ExchangeAndCustomizationAppointments</servlet-name>
+        <servlet-class>ExchangeAndCustomizationAppointments</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>EandCAppointmentsData</servlet-name>
+        <servlet-class>EandCAppointmentsData</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>GarageList</servlet-name>
+        <servlet-class>GarageList</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>RevisionDelete</servlet-name>
+        <servlet-class>RevisionDelete</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>AccountManager</servlet-name>
+        <servlet-class>AccountManager</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>GetManagerInfo</servlet-name>
+        <servlet-class>GetManagerInfo</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>updatePersonal</servlet-name>
+        <servlet-class>updatePersonal</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>EandCappointmentsDelete</servlet-name>
+        <servlet-class>EandCappointmentsDelete</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>ManagerJSON</servlet-name>
+        <servlet-class>ManagerJSON</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>updateAccount</servlet-name>
+        <servlet-class>updateAccount</servlet-class>
+    </servlet>
+	
     
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
@@ -104,5 +157,70 @@
         <servlet-name>LicensePlateJSON</servlet-name>
         <url-pattern>/LicensePlateJSON</url-pattern>
     </servlet-mapping> 
+	
+	<servlet-mapping>
+        <servlet-name>filtroAppointment</servlet-name>
+        <url-pattern>/filtroAppointment</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>AllappointmentsData</servlet-name>
+        <url-pattern>/AllappointmentsData</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>AllAppoinmentsList</servlet-name>
+        <url-pattern>/AllAppoinmentsList</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>ExchangeAndCustomizationAppointments</servlet-name>
+        <url-pattern>/ExchangeAndCustomizationAppointments</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>EandCAppointmentsData</servlet-name>
+        <url-pattern>/EandCAppointmentsData</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>GarageList</servlet-name>
+        <url-pattern>/GarageList</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>RevisionDelete</servlet-name>
+        <url-pattern>/RevisionDelete</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>AccountManager</servlet-name>
+        <url-pattern>/AccountManager</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>GetManagerInfo</servlet-name>
+        <url-pattern>/GetManagerInfo</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>updatePersonal</servlet-name>
+        <url-pattern>/updatePersonal</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>EandCappointmentsDelete</servlet-name>
+        <url-pattern>/EandCappointmentsDelete</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>ManagerJSON</servlet-name>
+        <url-pattern>/ManagerJSON</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>updateAccount</servlet-name>
+        <url-pattern>/updateAccount</url-pattern>
+    </servlet-mapping>
 	
 </web-app>
