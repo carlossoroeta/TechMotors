@@ -95,7 +95,7 @@ public class AllAppoinmentsList extends HttpServlet {
 					toClient.println("<TD>" + citaPendiente.Hour + "</TD>");
 					toClient.println("<TD>" + citaPendiente.Type + "</TD>");
 					toClient.println("<TD>" + citaPendiente.Vehicle + "</TD>");
-					toClient.println("<TD><A HREF=AllappointmentsDelete?id=" + citaPendiente.IDAppointment + "&Query=" + userType + ">Delete</A></TD>");
+					toClient.println("<TD><A HREF=RevisionDelete?id=" + citaPendiente.IDAppointment + "&Query=" + userType + ">Delete</A></TD>");
 					toClient.println("</TR>");
 				}
 			}
