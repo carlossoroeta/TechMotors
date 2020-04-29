@@ -55,42 +55,7 @@ import java.sql.*;
 		
 		
 		}
-		// public static String getCustomerManager(Connection connection, String username) {
-		// String sql ="Select IDCustomer FROM Customers WHERE  Customers.Username=?";
-        // System.out.println("getCustomerManager: " + sql);
-		
-		// int n;
-		// String type="";
-        // try {
-           // PreparedStatement pstmt = connection.prepareStatement(sql);
-		   // pstmt.setString(1, username);
-		   // ResultSet result = pstmt.executeQuery();
-		   // if (result.next()){
-			    // n=result.getInt("IDCustomer");
-			   // if (n!=0){
-					 // type="Customer";
-			   // }else {
-					 // type="Manager";
-				// }
-		   // }				
-		   
-		   
 
-                  // result.close();
-				  // pstmt.close();
-				  
-                    
-			
-         
-          // System.out.println(type);  
-        // } catch(SQLException e) {
-            // e.printStackTrace();
-            // System.out.println("Error in getIDCustomer: " + sql + " Exception: " + e);
-			  
-// System.out.println(type);			  
-		// }
-        // return type;
-	// }	
 		
 		
 		public static messageData getMessageUser(Connection connection,String username){
