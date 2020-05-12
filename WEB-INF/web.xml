@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>CheckLogin</servlet-name>
+        <servlet-class>CheckLogin</servlet-class>
+    </servlet>
+	
+    
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>CheckLogin</servlet-name>
+        <url-pattern>/CheckLogin</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>TypeOfAppointment</servlet-name>
+        <servlet-class>TypeOfAppointment</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>TypeOfAppointment</servlet-name>
+        <url-pattern>/TypeOfAppointment</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Calendario</servlet-name>
+        <servlet-class>Calendario</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>Calendario</servlet-name>
+        <url-pattern>/Calendario</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>elegirCita</servlet-name>
+        <servlet-class>elegirCita</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>elegirCita</servlet-name>
+        <url-pattern>/elegirCita</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Repair</servlet-name>
+        <servlet-class>Repair</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>Repair</servlet-name>
+        <url-pattern>/Repair</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Update</servlet-name>
+        <servlet-class>Update</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>Update</servlet-name>
+        <url-pattern>/Update</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Exchange</servlet-name>
+        <servlet-class>Exchange</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>Exchange</servlet-name>
+        <url-pattern>/Exchange</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ReferenceJSON</servlet-name>
+        <servlet-class>ReferenceJSON</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>ReferenceJSON</servlet-name>
+        <url-pattern>/ReferenceJSON</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>CategoryReferenceJSON</servlet-name>
+        <servlet-class>CategoryReferenceJSON</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>CategoryReferenceJSON</servlet-name>
+        <url-pattern>/CategoryReferenceJSON</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Customization</servlet-name>
+        <servlet-class>Customization</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>Customization</servlet-name>
+        <url-pattern>/Customization</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>CustomerMenu</servlet-name>
+        <servlet-class>CustomerMenu</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>CustomerMenu</servlet-name>
+        <url-pattern>/CustomerMenu</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Logout</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+</web-app>
